@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int matriz[5][5];
+    int i,j;
+    int vetor[4];
+    int vetor1[4];
+
+    srand(time(NULL));
+
+    for(i=0;i<5;i++){
+        for(j=0;j<5;j++){
+            matriz[i][j] = rand()%100;
+            printf("[%d]",matriz[i][j]);
+
+            if(i==2){
+                vetor[i] = matriz[2][5];
+            }
+
+            if(i ==4){
+                vetor1[i] = matriz[5][5];
+            }
+
+        }
+        printf("\n");
+    }
+
+    for(i=0;i<5;i++){
+        for(j=0;j<5;j++){
+
+            if((i !=2)&&(i!=4)){
+                printf("[%d]",matriz[i][j]);
+            }else if(i ==2){
+                printf("[%d]",vetor1[5]);
+            }else if(i==4){
+                printf("[%d]",vetor[5]);
+            }
+        }
+        printf("\n");
+    }
+}

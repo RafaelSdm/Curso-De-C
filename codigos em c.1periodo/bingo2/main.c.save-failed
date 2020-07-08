@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int m[5][5];
+    int i,j;
+
+    srand(time(NULL));
+    for(i=0;i<5;i++){
+        for(j=0;j<5;j++){
+            m[i][j] = rand()%30;
+            printf("%d",m[i][j]);
+        }
+
+        printf("\n");
+    }
+
+}

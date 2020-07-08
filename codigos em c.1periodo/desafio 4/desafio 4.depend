@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1593649288 source:c:\users\rafae\onedrive\documentos\codigos em c.1periodo\desafio 4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

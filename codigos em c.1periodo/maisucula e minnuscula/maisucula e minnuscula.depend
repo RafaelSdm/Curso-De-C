@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1592875369 source:c:\users\rafae\onedrive\documentos\codigos em c.1periodo\maisucula e minnuscula\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

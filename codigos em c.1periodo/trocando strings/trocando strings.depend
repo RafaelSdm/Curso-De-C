@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1587431467 source:c:\users\rafae\onedrive\documentos\codigos em c.1periodo\trocando strings\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1588684349 source:c:\users\rafae\onedrive\documentos\codigos em c.1periodo\bingo2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
